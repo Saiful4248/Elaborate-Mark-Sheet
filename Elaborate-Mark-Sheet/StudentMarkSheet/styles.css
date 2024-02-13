@@ -1,0 +1,89 @@
+
+
+.h1{
+    background-color: rgb(134, 199, 227);
+}
+.txtContainer{
+text-align: center;
+display: flex;
+flex-direction: column;
+line-height: 20%;
+align-items: center;
+justify-content: center;
+}
+
+
+input[type="number"] {
+font-size: 15px;
+border: none;
+background: transparent;
+cursor: pointer;
+height: 15px;
+width: 30px;
+background-color: rgb(239, 229, 229);
+
+}
+input[type="number"]:focus {
+outline: none;
+border-color: #92bbe7;
+box-shadow: 0 0 5px #007bff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+  appearance: none;
+ margin: 0;
+}
+td,th{
+width: 5px;
+text-align: center;
+padding: 5px;
+background-color: aquamarine;
+}    
+
+
+
+.form-button {
+    padding: 10px 20px;
+    background-color: rgb(33, 10, 81);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 5px;
+}
+
+.form-button:hover {
+    background-color: maroon;
+}
+
+.form-button:focus {
+    outline: none;
+}
+
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 5px;
+}
+
+.submit-button:hover {
+    background-color: maroon;
+}
+
+.submit-button:focus {
+    outline: none;
+}
+
+
+
